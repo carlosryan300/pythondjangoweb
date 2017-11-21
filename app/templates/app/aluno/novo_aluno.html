@@ -44,23 +44,17 @@
           </h5>
     </fieldset>
   <fieldset>
-
-    <table>
       <legend>Dados do curso</legend>
-      <tr>
-        <td>
+      <h5>
           <label for="sigla_curso">Curso: </label>
-        </td>
-        <td align="left">
+      </h5>
+        <h5>
           <select name="sigla_curso">
             {% for curso in curso %}
               <option value="{{ curso.sigla_curso }}">{{ curso.sigla_curso }}</option>
             {% endfor %}
           </select></br>
-        </td>
-      </tr>
-
-    </table>
+        </h5>
   </fieldset>
 <table>
   <tr>
