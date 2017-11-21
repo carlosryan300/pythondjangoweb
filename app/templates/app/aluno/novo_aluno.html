@@ -9,46 +9,39 @@
 <form action="{% url 'novo_aluno' %}" method="POST">{% csrf_token %}
   <fieldset>
     <legend>Dados do aluno</legend>
-      <table cellspacing="2">
+      
 
-        <tr>
-          <td>
-            <label for="ra_aluno">Ra: </label>
-          </td>
-          <td align="left">
-            {{ form.ra_aluno }}</br>
-          </td>
-        </tr>
+          <label for="ra_aluno">Ra: </label>
+                 
+           <h5> 
+             {{ form.ra_aluno }}</br>
+           </h5>
 
-        <tr>
-          <td>
+          <h5>
             <label for="nome_aluno">Nome: </label>
-          </td>
-          <td align="left">
+          </h5>
+
+          <h5>
             {{ form.nome_aluno }}</br>
-          </td>
-        </tr>
+          </h5>
+        
 
-        <tr>
-          <td>
+          <h5>
             <label for="email_aluno">Email: </label>
-          </td>
-          <td>
+          </h5>
+
+          <h5>
             {{ form.email_aluno }}</br>
-          </td>
-        </tr>
+          </h5>
 
 
-        <tr>
-          <td>
+
+          <h5>
             <label for="celular_aluno">Celular: </label>
-          </td>
-          <td>
+          </h5>
+          <h5>
             {{ form.celular_aluno }}</br>
-          </td>
-        </tr>
-
-      </table>
+          </h5>
     </fieldset>
   <fieldset>
 
