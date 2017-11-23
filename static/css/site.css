@@ -8,10 +8,10 @@
         padding-bottom: 0px;
         font-family: Sans-serif;
         font-size:100%;
-        background: -webkit-linear-gradient(left, #93B874, #C9DCB9); /* da esquerda à direita */
-        background: -o-linear-gradient(right, #93B874, #C9DCB9); /* terminando à direita */
-        background: -moz-linear-gradient(right, #93B874, #C9DCB9); /* terminando à direita */
-        background: linear-gradient(to right, #93B874, #C9DCB9); /* indo para a direita */
+        background: -webkit-linear-gradient(left, #A9A9A9, #A9A9A9); /* da esquerda à direita */
+        background: -o-linear-gradient(right,#A9A9A9, #A9A9A9); /* terminando à direita */
+        background: -moz-linear-gradient(right, #191970, #191970); /* terminando à direita */
+        background: linear-gradient(to right, #191970, #191970); /* indo para a direita */
         background-color: #0000FF; /* É bom escolher uma cor de fundo para o caso de o efeito gradiente não carregar */
     }
     .body-content {
@@ -94,7 +94,7 @@
     .addheader {z-index: 9999;}
     .menu-container {
     	height: 7.5em;
-    	background-color: #000;
+    	background-color: #008B8B;
     	margin: 0;
         padding: 0;
 
@@ -103,7 +103,7 @@
         margin: 0;
         padding: 0;
     	list-style: none;
-        background: #000;
+        background: #008B8B;
 
 
     }
